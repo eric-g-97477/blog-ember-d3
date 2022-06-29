@@ -5,7 +5,7 @@ import { graphviz } from "d3-graphviz";
 // A class to create and update a D3 donut chart.
 class DonutChart {
   // Initial set up, pass anything from the component that D3 requires to
-  // create the chart.
+  // create the chart
   constructor(container, sendAction, options) {
     const defaults = {
       width: 250,
